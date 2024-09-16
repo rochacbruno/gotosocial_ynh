@@ -96,7 +96,7 @@ host: "__DOMAIN__"
 # https://docs.gotosocial.org/en/latest/advanced/host-account-domain/
 #
 # Default: ""
-account-domain: ""
+account-domain: "__ACCOUNT_DOMAIN__"
 
 # String. Protocol to use for the server. Only change to http for local testing!
 # This should be the protocol part of the URI that your server is actually reachable on. So even if you're

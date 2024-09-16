@@ -34,6 +34,11 @@ ram.runtime = "100M"
 [install.domain]
 type = "domain"
 
+[install.account_domain]
+ask.en = "Account name for when using split-domains see: https://docs.gotosocial.org/en/latest/advanced/host-account-domain/ and use it only after you manually configured your reverse proxy config."
+type = "string"
+default = ""
+
 [install.admin]
 ask.en = "Name your admin user for GoToSocial"
 ask.gl = "Nome da usuaria administradora en GoToSocial"

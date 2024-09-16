@@ -166,7 +166,7 @@ ynh_script_progression --message="Setting up source files..." --weight=1
 ### `ynh_setup_source` use the file conf/app.src
 
 # Download, check integrity, uncompress and patch the source from app.src
-ynh_setup_source --dest_dir="$install_dir" 
+ynh_setup_source --dest_dir="$install_dir"
 
 # FIXME: this should be managed by the core in the future
 # Here, as a packager, you may have to tweak the ownerhsip/permissions

@@ -156,7 +156,7 @@ Si vous augmentez cette limite, vous risquez d'avoir des problèmes avec la féd
     default = "100KiB"
     type = "string"
     pattern.regexp = "^[0-9]*(KB|KiB|MB|MiB)?$"
-    pattern.error = "Should be a number with or without the following unit marker: KB, KiB, MB, MiB."    
+    pattern.error = "Should be a number with or without the following unit marker: KB, KiB, MB, MiB."
     [main.media.media_emoji_remote_max_size.help]
     en = """Default: 100KiB\
 By default this is 100kb, or twice the size of the default for media-emoji-local-max-size.\
